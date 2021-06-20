@@ -47,8 +47,14 @@ Para executar o projeto execute `yarn dev`.
 - Commitzen 3.3.0
 - Husky 6.0.0
   - Ao rodar o comando "git commit"
-- Github Actions nos PRs
-  - Build
-  - Lint do código
-  - Lint dos commits
-  - Testes
+- Github
+  - Template
+    - Issues
+      - Bug
+      - Feature
+    - Pull Requests
+  - Actions nos PRs
+    - Build
+    - Lint do código
+    - Lint dos commits
+    - Testes
