@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Willian Justen - React Avançado Boilerplate
 
-## Getting Started
+Boilerplate criado e alterado com o conteúdo do curso [React Avançado, por Willian Justen](https://reactavancado.com.br/)
 
-First, run the development server:
+# Sumário
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Conteúdo
+- [Requisitos](#requisitos)
+- [Instalação](#instalação)
+- [Comandos](#comandos)
+- [O que foi configurado/utilizado](#o-que-foi-utilizado)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Requisitos
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Node 14.15.3
+- NPM 6.14.9
+- Yarn 1.22.10
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Instalação
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Execute no terminal o comando `yarn`.
 
-## Learn More
+Para executar o projeto execute `yarn dev`.
 
-To learn more about Next.js, take a look at the following resources:
+## Comandos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `dev`: roda o projeto no modo de desenvolvimento
+- `lint`: executa o lint nos arquivos do projeto
+- `test`: roda os testes do projeto
+- `test:watch`: roda os testes do projeto deixando o Jest aberto esperando por novas alterações
+- `storybook`: abre o storybook
+- `commit`: abre a CLI do Commitzen
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## O que foi configurado/utilizado
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Editor Config
+- Prettier
+- Typescript
+- Eslint
+- React 17.0.2
+- NextJS 11.0.0
+- PWA com next-pwa
+- Storybook 6.2.9
+- Jest 27.0.4
+- Styled Components 5.3.0
+- Commitzen 3.3.0
+- Husky 6.0.0
+  - Ao rodar o comando "git commit"
+- Github Actions nos PRs
+  - Build
+  - Lint do código
+  - Lint dos commits
+  - Testes
