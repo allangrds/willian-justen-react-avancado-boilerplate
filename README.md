@@ -30,6 +30,8 @@ Para executar o projeto execute `yarn dev`.
 - `test:watch`: roda os testes do projeto deixando o Jest aberto esperando por novas alterações
 - `storybook`: abre o storybook
 - `commit`: abre a CLI do Commitzen
+- `plop component <name>`: gera a estrutura de arquivos de um componente
+- `plop page <name>`: gera a estrutura de arquivos de uma page
 
 
 ## O que foi configurado/utilizado
@@ -47,6 +49,8 @@ Para executar o projeto execute `yarn dev`.
 - Commitzen 3.3.0
 - Husky 6.0.0
   - Ao rodar o comando "git commit"
+- Plop
+  - Para gerar a estrutura de pastas e arquivos de componentes e pages
 - Github
   - Template
     - Issues
